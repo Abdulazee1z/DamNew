@@ -1,0 +1,40 @@
+#Hiit{   color:#0000aa;
+        font-size: 50;
+        font-style: bold;
+}
+.outer1{
+    background-color: red;
+    font-size: 190;
+    font-style: italic;
+}
+.inner1{
+    background-color: blue;
+    width: 50%;
+}
+
+#hi{
+    border: 1px solid black;
+    margin-top: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+#p2{
+   opacity: 1; 
+}
+
+#duster{
+    background: red;
+    display:inline-block;
+    width:50vw;
+    height:50px;
+}
+p{
+    display: inline-block;
+}
+#long{
+    background-color:yellow;
+    display:flex;
+    justify-content:space-evenly;
+}
+    

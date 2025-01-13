@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+li{
+    list-style: none;
+}
+main{
+    display: flex;
+    justify-content: space-between;
+}
+.ico{
+    width: 20px;
+    height: 20px;
+}
+.left{
+    background-color: #490057;
+    width: 15vw;
+    height: 100vh;
+    padding: 2%;
+}
+.left-1{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+#logo{
+    width: 38px;
+    height: 38px;
+}
+
+.m3{
+    color: #ffffff;
+    align-self: center;
+    font-family: nunito;
+}
+.left-navs{
+    margin-top: 7vh;
+}
+.nav-text{
+    color:#ffffff;
+    font-family: nunito;
+    font-size: 1rem;
+    padding-left: 5%;
+    align-self: center;
+}
+li{
+    padding-top: 10%;
+}
+
+.right{
+    background-color: #E5E5E5;
+    width: 85vw;
+    height: 100vh;
+    padding: 2%;
+    
+}
+.right-1{
+    display: grid;
+    grid-template-columns: 8.5fr 1fr;
+}
+
+input, input:active, input:focus{
+    width: 100%;
+    height: 65px;
+    border: none;
+    border-radius: 10px;
+    font-size: 2rem;
+}
+
+.right2{
+    height: 280px;
+    background-color: red;
+    border-radius: 20px;
+    margin-top: 20px;
+    background-image: url("./images/bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.user-parent{
+    position: relative;
+}
+.user-child{
+    position: absolute;
+    top: -150px;
+    left:50px;
+}
+.right3{
+    background-color: #fff;
+    padding: 2% 1% 2% 20%;
+}
+.lizzy{
+    color:#A303A0;
+    font-weight: bold;
+    font-size: 1.85rem;
+    font-family: Nunito;
+}
+.ui{
+    color: #A303A0;
+
+}
